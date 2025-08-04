@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
-const User = require('./Models/user');
-const Post = require('./Models/Post');
+const User = require('../Models/user');
+const Post = require('../Models/Post');
 
 mongoose.connect('mongodb://localhost:27017/miniLinkedIn')
   .then(() => console.log('MongoDB Connected'))

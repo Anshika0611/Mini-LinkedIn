@@ -1,5 +1,5 @@
-## MINI-LINKEDIN
+##  MINI-LINKEDIN
 
-# Features
+#  Features
 - User authentication and authorization
 - User profile creation and management

@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const User = require('../Models/user');
-const Post = require('../Models/post');
+const User = require('../models/User');
+const Post = require('../Models/Post');
 
 // ✅ Get a single user + their posts
 router.get('/:id', async (req, res) => {

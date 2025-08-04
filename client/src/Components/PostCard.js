@@ -3,6 +3,7 @@ import { formatDistanceToNow } from 'date-fns';
 import { Link } from 'react-router-dom';
 
 export default function PostCard({ post }) {
+  if (!post || !post.author) return null; // Ensure post and author exist
   return (
     <div className="bg-white p-4 rounded shadow mb-4">
       <div className="flex items-center gap-3 mb-2">

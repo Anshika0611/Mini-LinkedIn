@@ -1,7 +1,7 @@
 // server/seed.js
 
 const mongoose = require('mongoose');
-const User = require('./Models/user');
+const User = require('../Models/user');
 
 mongoose.connect('mongodb://localhost:27017/miniLinkedIn') // change DB name if needed
   .then(() => console.log('MongoDB Connected'))
